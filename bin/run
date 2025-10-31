@@ -1,6 +1,6 @@
-﻿#!/bin/bash
+#!/bin/bash
 
-docker ps --format '{{.Names}}' | grep "^dnsk-" | awk '{print $1}' | xargs -I {} docker stop {}
+docker ps --format '{{.Names}}' | grep "^stringer-" | awk '{print $1}' | xargs -I {} docker stop {}
 
 if [ "$1" == "nuke" ]; then
     docker compose -f docker/docker-compose.yml down --rmi all
@@ -14,4 +14,4 @@ docker compose -f docker/docker-compose.yml up -d
 
 dotnet tool restore
 dotnet build
-dotnet run --project Dnsk.Server/Dnsk.Server.csproj
+dotnet run --project Stringer.Server/Stringer.Server.csproj

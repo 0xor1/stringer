@@ -1,0 +1,10 @@
+key,en,es,fr,de,it
+counter,Counter,Contador,Comptoir,Schalter,Contatore
+decrement,Decrement,Decremento,Décrémenter,Dekrementieren,Decremento
+decrementing,Decrementing,Decreciente,Décrémentation,Dekrementieren,Diminuzione
+home,Home,Hogar,Maison,Heim,Casa
+home_body,<p>Welcome to your new dotnet starter kit.</p><p>You will find:</p><ul><li>Client: a blazor wasm app using radzen ui library</li><li>Server: aspnet with rpc pattern api and entity framework db interface</li></ul>,<p>Bienvenido a su nuevo kit de inicio de dotnet.</p><p>Encontrará:</p><ul><li>Cliente: una aplicación blazor wasm usando biblioteca radzen ui</li><li>Servidor: aspnet con grpc api e interfaz db del marco de la entidad</li></ul>,<p>Bienvenue dans votre nouveau kit de démarrage dotnet.</p><p>Vous trouverez:</p><ul><li>Client: une application blazor wasm utilisant bibliothèque radzen ui</li><li>Serveur: aspnet avec grpc api et interface de base de données du cadre d'entité</li></ul>,"<p>Willkommen bei Ihrem neuen dotnet-Starterkit.</p><p>Sie finden:</p><ul><li>Client: eine Blazor-Wasm-App, die verwendet radzen ui library</li><li>Server: aspnet mit grpc api und Entity Framework db interface</li></ul>",<p>Benvenuto nel tuo nuovo starter kit dotnet.</p><p>Troverai:</p><ul><li>Client: un'app blazor wasm che utilizza Libreria radzen ui</li><li>Server: aspnet con interfaccia grpc api e entità framework db</li></ul>
+home_header,"Hello, Stringer!","¡Hola, Stringer!","Bonjour, Stringer!","Hallo, Stringer!","Ciao, Stringer!"
+increment,Increment,Incremento,Incrément,Zuwachs,Incremento
+incrementing,Incrementing,Incrementando,Incrémentation,Inkrementieren,Incremento
+my_counter,My Counter,Mi Contador,Mon Compteur,Mein Zähler,Il mio contatore

@@ -1,0 +1,15 @@
+@using Stringer.Client.Shared.MainLayout
+@using CS = Common.Shared.I18n.S;
+@inject L L;
+<Router AppAssembly="@typeof(App).Assembly">
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+        <FocusOnNavigate RouteData="@routeData" Selector="@("h1")" />
+    </Found>
+    <NotFound>
+        <PageTitle>@L.S(CS.NotFound)</PageTitle>
+        <LayoutView Layout="@typeof(MainLayout)">
+            <p class="m-1" role="alert">@L.S(CS.NothingAtAddress)</p>
+        </LayoutView>
+    </NotFound>
+</Router>

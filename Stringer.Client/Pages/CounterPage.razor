@@ -1,0 +1,12 @@
+@page "/{user}/counter"
+@using Stringer.I18n
+@inject L L;
+<PageTitle>@L.S(S.Counter)</PageTitle>
+<Counter User="@User"/>
+
+@code {
+
+    [Parameter]
+    public string User { get; set; } = "";
+
+}

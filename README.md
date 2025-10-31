@@ -1,8 +1,8 @@
-Dnsk - dotnet starter kit
+Stringer - dotnet starter kit
 =========================
-[![Build Status](https://github.com/0xor1/dnsk/actions/workflows/build.yml/badge.svg)](https://github.com/0xor1/dnsk/actions/workflows/build.yml)
-[![Coverage Status](https://coveralls.io/repos/github/0xor1/dnsk/badge.svg)](https://coveralls.io/github/0xor1/dnsk)
-[![Demo Live](https://img.shields.io/badge/demo-live-4ec820)](https://dnsk.dans-demos.com)
+[![Build Status](https://github.com/0xor1/stringer/actions/workflows/build.yml/badge.svg)](https://github.com/0xor1/stringer/actions/workflows/build.yml)
+[![Coverage Status](https://coveralls.io/repos/github/0xor1/stringer/badge.svg)](https://coveralls.io/github/0xor1/stringer)
+[![Demo Live](https://img.shields.io/badge/demo-live-4ec820)](https://stringer.dans-demos.com)
 
 This project is the basic starting point for my dotnet based projects, 
 revolving around the primary technologies:

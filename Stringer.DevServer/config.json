@@ -1,0 +1,6 @@
+{
+  "devServer": {
+    "listen": "http://localhost:9500",
+    "rpcHost": "https://stringer.dans-demos.com"
+  }
+}

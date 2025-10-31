@@ -1,6 +1,6 @@
-﻿#!/bin/bash
+#!/bin/bash
 
-docker ps --format '{{.Names}}' | grep "^dnsk-" | awk '{print $1}' | xargs -I {} docker stop {}
+docker ps --format '{{.Names}}' | grep "^stringer-" | awk '{print $1}' | xargs -I {} docker stop {}
 
 if [ "$1" == "nuke" ]; then
     docker compose -f docker/docker-compose.yml down --rmi all
@@ -18,8 +18,8 @@ dotnet test --no-build --blame-hang-timeout 600000 -v n -p:CollectCoverage="true
 
 if [ "$1" == "gh-actions" ]; then 
   curl -L https://coveralls.io/coveralls-linux.tar.gz | tar -xz
-  #./coveralls report Dnsk.Client.Test/coverage.cobertura.xml
-  ./coveralls report Dnsk.Eps.Test/coverage.cobertura.xml
+  #./coveralls report Stringer.Client.Test/coverage.cobertura.xml
+  ./coveralls report Stringer.Eps.Test/coverage.cobertura.xml
 else
   dotnet tool install -g dotnet-reportgenerator-globaltool
   rm -r test_coverage

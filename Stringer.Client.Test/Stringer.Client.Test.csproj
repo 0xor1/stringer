@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="0xor1.Common.Client" Version="6.0.6" />
+    <PackageReference Include="0xor1.Common.Server" Version="6.0.6" />
+    <PackageReference Include="bunit" Version="2.0.62-preview" />
+    <PackageReference Include="coverlet.msbuild" Version="6.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.0" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.5">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="CSharpier.MsBuild" Version="1.1.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Stringer.Client\Stringer.Client.csproj" />
+    <ProjectReference Include="..\Stringer.Db\Stringer.Db.csproj" />
+    <ProjectReference Include="..\Stringer.Eps\Stringer.Eps.csproj" />
+    <ProjectReference Include="..\Stringer.I18n\Stringer.I18n.csproj" />
+    <ProjectReference Include="..\Stringer.Api\Stringer.Api.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="config.json" />
+  </ItemGroup>
+</Project>

@@ -1,6 +1,0 @@
-﻿{
-  "devServer": {
-    "listen": "http://localhost:9500",
-    "rpcHost": "https://dnsk.dans-demos.com"
-  }
-}
